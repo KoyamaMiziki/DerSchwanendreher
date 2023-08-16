@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Fashion Fetish Light';
+	src: url('Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.eot');
+	src: url('Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.eot?#iefix') format('embedded-opentype'),
+		url("Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.woff2")format("woff2"),
+		url('Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.woff') format('woff'),
+		url('Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.ttf') format('truetype'),
+		url('Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.svg') format('svg');
+}

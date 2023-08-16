@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'UniversTE20-Thin';
+	src: url('Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.eot');
+	src: url('Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.eot?#iefix') format('embedded-opentype'),
+		url('Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.woff') format('woff'),
+		url("Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.woff2")format("woff2"),
+		url('Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.ttf') format('truetype'),
+		url('Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.svg') format('svg');
+}

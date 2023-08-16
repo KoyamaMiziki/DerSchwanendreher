@@ -1,0 +1,240 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: "UniversTE20-Thin";
+    src: url("Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.eot");
+    src: url('Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.eot?#iefix') format('embedded-opentype'),
+	url("Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.woff2")format("woff2"),
+    url("Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.woff")format("woff"),
+    url("Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.ttf")format("truetype"),
+    url("Fonts/OnlineWebFonts_COM_UniversTE20-Thin/UniversTE20-Thin/UniversTE20-Thin.svg")format("svg");
+}
+
+@font-face {
+    font-family: "Fashion Fetish Light";
+    src: url("Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.eot");
+    src: url('Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.eot?#iefix') format('embedded-opentype'),
+	url("Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.woff2")format("woff2"),
+    url("Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.woff")format("woff"),
+    url("Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.ttf")format("truetype"),
+    url("Fonts/Fashion Fetish Light Webfonts/Fashion Fetish Light.svg")format("svg");
+}
+
+html,
+html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+header {
+	padding-top: 32px;
+}
+
+.style-Logo {
+	margin-left:auto;
+	margin-right:auto;
+	display: block;
+}
+
+
+.style-galleryimg {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.style-nav ul {
+	list-style-type: none;
+}
+
+
+.style-nav ul li a {
+	text-decoration: none;
+	color: #454545;
+	text-align: center;
+	display: block;
+	text-transform: uppercase;
+	padding: 20px;
+	font-family:"Fashion Fetish Light";
+}
+
+ul li p {
+	color: darkorange;
+	font-family:"Fashion Fetish Light";
+	text-transform: uppercase;
+	text-align:center;
+	padding: 20px;
+	font-size: 22px;
+	display: block;
+}
+
+ul li a:hover{
+	color:darkorange;
+	font-size: 22px;
+}
+
+.style-article {
+	display: block;
+	color:#292929;
+	font-family:"UniversTE20-Thin";
+	font-size: 16px;
+}
+
+.style-article h1 {
+	text-align: center;
+	font-size: 21px;
+}
+
+u {
+	text-decoration: none;
+	color:#A9A9A9;
+	font-size: 30px;
+}
+
+h2 {
+	text-align: center;
+	font-size: 11px;
+	color: #939393;
+}
+
+k {
+	display:block;
+	text-align: center;
+}
+
+ws {
+	position:relative;
+	right:0px;
+}
+
+a {
+	text-decoration: none;
+	color:darkorange;
+}
+
+d {
+	font-size: 42px;
+	color:darkorange;
+	line-height: 52px;
+}
+
+note {
+	font-size: 13px;
+	color:#6C6C6C;
+	line-height:normal;
+}
+
+.style-article p1 {
+	display:inline-block;
+	margin: auto;
+	min-width: 40px;
+	max-width: 800px;
+	border-width:medium;
+	padding-top: 26px;
+	padding-left:36px;
+	padding-right: 36px;
+	text-align:justify;
+	line-height: 24px;
+}
+
+.style-article p {
+	text-align:justify;
+	line-height:24px;
+	width: 350px;
+	margin:auto;
+	border:medium;
+	padding-left: 42px;
+	padding-right: 42px;
+	padding-top: 12px;
+	
+}
+
+.style-article c{
+	font-size: 19px;
+	font-family: "Fashion Fetish Light";
+	padding: 30px;
+	color:#7A7A7A;
+	margin: auto;
+	;
+}
+
+.style-section {
+	font-size: 24px;
+}
+
+.style-nagra {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+
+.style-footer p {
+	color:#B1B1B1; 
+	text-align:center; 
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	font-family:"Fashion Fetish Light";
+}
+
+.style-footer ic {
+	color:#CCCCCC;
+	text-align: center;
+	display: block;
+	font-size: 8px;
+	font-family: "UniversTE20-Thin"
+}
+
+.style-footer ic div a{
+	list-style-type: none;
+	text-decoration: none;
+	color: #CCCCCC; 
+}
+
+ic div a:hover{
+	color:darkorange;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+footer {
+	margin-top: auto;
+}
+
+main {
+	margin-top: auto;
+}
+
+.style-submit {
+	font-family: "Fashion Fetish Light";
+	padding: 20px;
+}
+
+/*Tablet view*/
+
+@media (min-width: 768px){
+	
+	.style-nav ul li {
+		display: inline-block;
+	}
+	.style-nav ul {
+		text-align: center;
+	}
+	.style-article k w {
+		display:inline-table;
+	}
+}
+
+/*Dasktop view*/
+
+@media (min-width: 1024px){
+	
+}
